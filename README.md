@@ -195,7 +195,7 @@ data_reduced=data_reduced.drop(columns=(['review_id']))
 ![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_7.31.37_PM.png)
 
 ### Optimized Memory Usage vs Original Memory Usage.
-<img src="https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-10_at_12.11.44_AM.png" width="40%">
+<img src="https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-10_at_12.11.44_AM.png","https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_11.19.15_PM.png" width="40%">
 
 ### Optimized time for data loading and profiling
 <img src="https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_11.19.15_PM.png" width="40%">
