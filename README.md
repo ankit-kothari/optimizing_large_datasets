@@ -84,11 +84,10 @@ print(f'Time Taken for Data Preprocessing WITHOUT Optimization  {data_preprocess
 
 ### Memory Usage by Columns in MB  without optimization
 
-!(https://github.com/ankit-kothari/optimizing_large_datasets/tree/master/optimization_images/Screen_Shot_2020-08-09_at_6.08.47_PM.png)
-
+![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_6.08.47_PM.png)  
 
 ### DataTypes without optimization
-![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_6.08.47_PM.png)  ![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_6.07.28_PM.png)
+![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_6.07.28_PM.png)
 
 ### Data Loading with optimization
 
