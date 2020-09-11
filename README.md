@@ -93,7 +93,7 @@ print(f'Time Taken for Data Preprocessing WITHOUT Optimization  {data_preprocess
 
 ![image](https://github.com/ankit-kothari/optimizing_large_datasets/tree/master/optimization_images/Screen_Shot_2020-08-09_at_6.07.28_PM.png?raw=true)
 
-![https://github.com/ankit-kothari/optimizing_large_datasets/tree/master/optimization_images/Screen_Shot_2020-08-09_at_6.07.28_PM.png](https://github.com/ankit-kothari/optimizing_large_datasets/tree/master/optimization_images/Screen_Shot_2020-08-09_at_6.07.28_PM.png)
+![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_6.07.28_PM.png)
 
 ### Data Loading with optimization
 
@@ -198,19 +198,18 @@ data_reduced=data_reduced.drop(columns=(['review_id']))
 
 ### DataTypes with optimization
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a2854a14-aadc-4113-9926-8e6a1e01d680/Screen_Shot_2020-08-09_at_7.31.24_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a2854a14-aadc-4113-9926-8e6a1e01d680/Screen_Shot_2020-08-09_at_7.31.24_PM.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/65166d38-e106-4528-a6a3-0270ed72f202/Screen_Shot_2020-08-09_at_7.31.37_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/65166d38-e106-4528-a6a3-0270ed72f202/Screen_Shot_2020-08-09_at_7.31.37_PM.png)
+![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_7.31.24_PM.png)
+![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_7.31.37_PM.png)
 
 ### Optimized Memory Usage vs Original Memory Usage.
 
 ### Optimized time for data loading and profiling
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/afeedaeb-bfb6-4b32-a789-4a740589d7bf/Screen_Shot_2020-08-10_at_12.11.44_AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/afeedaeb-bfb6-4b32-a789-4a740589d7bf/Screen_Shot_2020-08-10_at_12.11.44_AM.png)
+![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-10_at_12.11.44_AM.png)
 
 I have not printed the text column in the above graphs since it stays the same. 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6da803c7-3541-4764-bd68-59488e12f89e/Screen_Shot_2020-08-09_at_11.19.15_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6da803c7-3541-4764-bd68-59488e12f89e/Screen_Shot_2020-08-09_at_11.19.15_PM.png)
+![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_11.19.15_PM.png)
 
 ## Aggregating
 
@@ -231,7 +230,7 @@ group_by_rating = grouped = data_reduced.groupby(['stars']).agg(
 group_by_rating = group_by_rating.reset_index()
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/df10cecc-a8e9-46d8-99f0-e7687315b7d3/Screen_Shot_2020-08-09_at_11.17.48_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/df10cecc-a8e9-46d8-99f0-e7687315b7d3/Screen_Shot_2020-08-09_at_11.17.48_PM.png)
+![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_11.17.48_PM.png)
 
 ## Filtering
 
@@ -250,8 +249,7 @@ optimized_filter = (time.time()-filter_start_time)/60
 group_by_rating_1= group_by_rating_1.unstack().reset_index()
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/098122a5-ad79-4a61-b877-139a19e6b717/Screen_Shot_2020-08-09_at_11.20.11_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/098122a5-ad79-4a61-b877-139a19e6b717/Screen_Shot_2020-08-09_at_11.20.11_PM.png)
-
+![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_11.20.11_PM.png)
 ## Text Cleaning
 
 ```python
@@ -283,7 +281,7 @@ def spacy_preprocessing(text):
     return clean_string
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7e729197-f7ed-469b-811d-e19a83b3a6db/Screen_Shot_2020-08-09_at_11.29.35_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7e729197-f7ed-469b-811d-e19a83b3a6db/Screen_Shot_2020-08-09_at_11.29.35_PM.png)
+![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_11.29.35_PM.png)
 
 - Process Pools use **max_workers** parameter, it depends on the cores the  computer has and can be set accordingly, I had 6 so I have experimented with 4 cores for this process.
 - **pool.map**  takes in the function to be applied to each item of the list passed with it, Here **temp['text'].to_list() is a list of reviews, so text cleaning will be done to each of the reviews and returned as one list**
@@ -330,15 +328,15 @@ time_profile = [text_profile(checkpoint)[1] for checkpoint in checkpoints]
 
 ### Time Savings: 69%. The time is reduced from 39 minutes to 12 minutes
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a7fd2f11-0330-4e40-b868-9e06c65c9e49/Screen_Shot_2020-08-09_at_10.15.55_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a7fd2f11-0330-4e40-b868-9e06c65c9e49/Screen_Shot_2020-08-09_at_10.15.55_PM.png)
+![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_10.15.55_PM.png)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c51c4e71-1460-447e-b638-8d1a4a72e5d3/Screen_Shot_2020-08-09_at_10.02.24_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c51c4e71-1460-447e-b638-8d1a4a72e5d3/Screen_Shot_2020-08-09_at_10.02.24_PM.png)
+![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_10.02.24_PM.png)
 
 ### Memory Usage Reduction 23%. The memory usage reduced from 6.9 gb to 5.3 gb
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d0cb52fb-1ee3-4209-acf0-811b91e60429/Screen_Shot_2020-08-09_at_10.50.21_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d0cb52fb-1ee3-4209-acf0-811b91e60429/Screen_Shot_2020-08-09_at_10.50.21_PM.png)
+![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_10.50.21_PM.png)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7e12b477-1873-493f-870a-bd66aa56cda2/Screen_Shot_2020-08-09_at_10.58.06_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7e12b477-1873-493f-870a-bd66aa56cda2/Screen_Shot_2020-08-09_at_10.58.06_PM.png)
+![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_10.58.06_PM.png)
 
 ## Future Work
 
