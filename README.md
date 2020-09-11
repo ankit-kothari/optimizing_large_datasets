@@ -86,8 +86,9 @@ print(f'Time Taken for Data Preprocessing WITHOUT Optimization  {data_preprocess
 
 !(https://github.com/ankit-kothari/optimizing_large_datasets/tree/master/optimization_images/Screen_Shot_2020-08-09_at_6.08.47_PM.png)
 
+
 ### DataTypes without optimization
-![alt text](https://github.com/PlayingNumbers/ds_salary_proj/blob/master/salary_by_job_title.PNG "Salary by Position")
+![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/tree/master/optimization_images/Screen_Shot_2020-08-09_at_6.08.47_PM.png "Screen_Shot_2020-08-09_at_6.08.47_PM")
 ![alt text](https://github.com/PlayingNumbers/ds_salary_proj/blob/master/positions_by_state.png "Job Opportunities by State")
 ![alt text](https://github.com/PlayingNumbers/ds_salary_proj/blob/master/correlation_visual.png "Correlations")
 
