@@ -195,10 +195,10 @@ data_reduced=data_reduced.drop(columns=(['review_id']))
 ![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_7.31.37_PM.png)
 
 ### Optimized Memory Usage vs Original Memory Usage.
-![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-10_at_12.11.44_AM.png)
+<img src="https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-10_at_12.11.44_AM.png" width="40%">
 
 ### Optimized time for data loading and profiling
-![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_11.19.15_PM.png)
+<img src="https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_11.19.15_PM.png" width="40%">
 
 ## Aggregating
 
@@ -279,7 +279,6 @@ def spacy_preprocessing(text):
 
 Profiling it with cleaning 1000, 10000, 100000 rows **without Process Pools**                                
 
-Profiling it with cleaning 1000, 10000, 100000 rows **with Process Pools**
 
 ```python
 checkpoints=[100, 1000,10000,100000]
@@ -297,6 +296,8 @@ print(time_profile)
 
 **Time Taken is 27+ mins**
 ```
+Profiling it with cleaning 1000, 10000, 100000 rows **with Process Pools**
+
 
 ```python
 checkpoints=[100, 1000,10000,100000]
