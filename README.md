@@ -219,7 +219,7 @@ group_by_rating = grouped = data_reduced.groupby(['stars']).agg(
 group_by_rating = group_by_rating.reset_index()
 ```
 
-![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_11.17.48_PM.png)
+<img src="https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_11.17.48_PM.png" width="40%">
 
 ## Filtering
 
@@ -237,7 +237,8 @@ optimized_filter = (time.time()-filter_start_time)/60
 
 group_by_rating_1= group_by_rating_1.unstack().reset_index()
 ```
-![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_11.20.11_PM.png)
+
+<img src="https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_11.20.11_PM.png" width="40%">
 
 ## Text Cleaning
 
@@ -270,7 +271,8 @@ def spacy_preprocessing(text):
     return clean_string
 ```
 
-![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_11.29.35_PM.png)
+
+<img src="https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_11.29.35_PM.png" width="40%">
 
 - Process Pools use **max_workers** parameter, it depends on the cores the  computer has and can be set accordingly, I had 6 so I have experimented with 4 cores for this process.
 - **pool.map**  takes in the function to be applied to each item of the list passed with it, Here **temp['text'].to_list() is a list of reviews, so text cleaning will be done to each of the reviews and returned as one list**
