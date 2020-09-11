@@ -317,13 +317,14 @@ time_profile = [text_profile(checkpoint)[1] for checkpoint in checkpoints]
 
 ### Time Savings: 69%. The time is reduced from 39 minutes to 12 minutes
 
-![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_10.15.55_PM.png) ![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_10.02.24_PM.png)
+<img src="https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_10.15.55_PM.png" width="50%"> <img src="https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_10.02.24_PM.png" width="50%">
 
 ### Memory Usage Reduction 23%. The memory usage reduced from 6.9 gb to 5.3 gb
 <img src="https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_10.50.21_PM.png" width="50%">
 
-![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_10.50.21_PM.png) ![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_10.58.06_PM.png)
+<img src="https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_10.58.06_PM.png" width="50%">
 
+ 
 ## Future Work
 
 - Evaluate working with PySpark which works on lazy evaluation and perform time savings calculations.
