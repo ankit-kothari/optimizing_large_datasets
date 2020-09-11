@@ -88,7 +88,7 @@ print(f'Time Taken for Data Preprocessing WITHOUT Optimization  {data_preprocess
 
 
 ### DataTypes without optimization
-![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_6.08.47_PM.png)![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_6.07.28_PM.png)
+![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_6.08.47_PM.png)  ![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_6.07.28_PM.png)
 
 ### Data Loading with optimization
 
@@ -243,8 +243,8 @@ optimized_filter = (time.time()-filter_start_time)/60
 
 group_by_rating_1= group_by_rating_1.unstack().reset_index()
 ```
-
 ![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_11.20.11_PM.png)
+
 ## Text Cleaning
 
 ```python
@@ -323,15 +323,11 @@ time_profile = [text_profile(checkpoint)[1] for checkpoint in checkpoints]
 
 ### Time Savings: 69%. The time is reduced from 39 minutes to 12 minutes
 
-![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_10.15.55_PM.png)
-
-![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_10.02.24_PM.png)
+![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_10.15.55_PM.png) ![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_10.02.24_PM.png)
 
 ### Memory Usage Reduction 23%. The memory usage reduced from 6.9 gb to 5.3 gb
 
-![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_10.50.21_PM.png)
-
-![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_10.58.06_PM.png)
+![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_10.50.21_PM.png) ![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_10.58.06_PM.png)
 
 ## Future Work
 
