@@ -88,7 +88,7 @@ print(f'Time Taken for Data Preprocessing WITHOUT Optimization  {data_preprocess
 
 ### DataTypes without optimization
 
-![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/tree/master/optimization_images/Screen_Shot_2020-08-09_at_6.07.28_PM.png?raw=true)
+![image](https://github.com/ankit-kothari/optimizing_large_datasets/tree/master/optimization_images/Screen_Shot_2020-08-09_at_6.07.28_PM.png?raw=true)
 
 ![https://github.com/ankit-kothari/optimizing_large_datasets/tree/master/optimization_images/Screen_Shot_2020-08-09_at_6.07.28_PM.png](https://github.com/ankit-kothari/optimizing_large_datasets/tree/master/optimization_images/Screen_Shot_2020-08-09_at_6.07.28_PM.png)
 
