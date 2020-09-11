@@ -189,20 +189,15 @@ data_reduced=data_reduced.drop(columns=(['review_id']))
 ```
 
 ### Memory Usage by Columns **in MB** with optimization
+![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_7.31.24_PM.png)
 
 ### DataTypes with optimization
-
-![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_7.31.24_PM.png)
 ![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_7.31.37_PM.png)
 
 ### Optimized Memory Usage vs Original Memory Usage.
-
-### Optimized time for data loading and profiling
-
 ![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-10_at_12.11.44_AM.png)
 
-I have not printed the text column in the above graphs since it stays the same. 
-
+### Optimized time for data loading and profiling
 ![alt text](https://github.com/ankit-kothari/optimizing_large_datasets/blob/master/optimization_images/Screen_Shot_2020-08-09_at_11.19.15_PM.png)
 
 ## Aggregating
